@@ -18,5 +18,5 @@ dotnet add package Microsoft.Extensions.Hosting --prerelease
 dotnet new -i Duotify.Templates.DotNetNew
 dotnet new editorconfig
 dotnet restore
-dotnet list packagedot
+dotnet list package
 ```
