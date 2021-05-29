@@ -1,8 +1,11 @@
 {
     "profiles": {
       "playground": {
-        "commandName": "playground",
-        "hotReloadProfile": "net60"
+        "commandName": "Project",
+        "hotReloadProfile": "aspnetcore",
+        "launchBrowser": false,
+        "environmentVariables": {
+        }
       }
     }
   }
