@@ -1,0 +1,7 @@
+# Custom .gitignore
+
+## Compilation
+
+**/bin/**
+**/Debug/**
+**/obj/**

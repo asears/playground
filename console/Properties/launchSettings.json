@@ -1,0 +1,8 @@
+{
+    "profiles": {
+      "playground": {
+        "commandName": "playground",
+        "hotReloadProfile": "net60"
+      }
+    }
+  }
