@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace playground
+namespace Play.World
 {
     public static class Program
     {
@@ -10,12 +10,17 @@ namespace playground
             {
                 Console.WriteLine("args: {0}", arg);
             }
-            const int i = 1;
-            while (i == 1)
+
+            ConsoleKeyInfo key;
+            bool intercept = true;
+
+            do
             {
                 Console.WriteLine("Hello 6.0 World!");
-                Console.ReadKey();
-            }
+
+                key = Console.ReadKey(intercept);
+
+            } while (key.Key != ConsoleKey.Escape);
         }
     }
 }
